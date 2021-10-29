@@ -11,7 +11,7 @@ fi
 cp $PWD/* $HOME/${data}
 
 
-# -P -> nomes absolutos
+# -P -> Caminhos absolutos
 tar -czf "$HOME/${data}".tar.gz -P "$HOME/${data}"
 
 rm -rf "$HOME/${data}"
